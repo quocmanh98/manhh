@@ -1,0 +1,376 @@
+/*===== FONT FAMILY =====*/
+@font-face {
+	font-family : "MYRIADPRO-BOLD";
+	src : url('../font-family/MYRIADPRO-BOLD.OTF');
+}
+@font-face {
+	font-family: "MYRIADPRO-REGULAR";
+	src : url('../font-family/MYRIADPRO-REGULAR.OTF');
+}
+@font-face {
+	font-family: "MyriadPro-Light";
+	src : url('../font-family/MyriadPro-Light.otf');
+}
+/*===== BODY =====*/
+body {
+	font-family: "MYRIADPRO-REGULAR";
+	font-size: .875rem;
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+
+/*===== HEADER =====*/
+#header {
+	background: #000000;
+}
+#top-header {
+	color: #eeeeee;
+	border-bottom: 1px solid #363636;
+}
+#bottom-header a.logo {
+	border: 1px solid #ba9164;
+	padding: 7px 10px 8px 12px;
+	margin-right: 100px;
+}
+#bottom-header .navbar-toggler:focus {
+	outline: none;
+}
+#main-nav ul.navbar-nav li.nav-item a.nav-link {
+	color: #eeeeee;
+	padding: .71428571429rem 1.07142857143rem;
+}
+#main-nav ul.navbar-nav.border-top {
+	border-top: 2px solid #fff;
+}
+#main-nav .icons a.icon-btn {
+	font-size: 1.125rem;
+	color: #eeeeee;
+	padding: .38888888889rem .44444444444rem;
+}
+#main-nav ul.navbar-nav li {
+	position: relative;
+}
+#main-nav ul.navbar-nav li ul.sub-menu {
+	position: absolute;
+	top: 200%;
+	transition: top .5s;
+	z-index: 2;
+	background-color: #f9f9f9;
+	width: 197px;
+	padding: 13px 0 21px 0;
+	display: none;
+}
+#main-nav ul.navbar-nav li ul.sub-menu.show {
+	top: 95%;
+	transition: top .25s;
+}
+#main-nav ul.navbar-nav li ul.sub-menu li a {
+	line-height: 1.8rem;
+	color: #5c5b5b;
+	padding-left: 30px;
+}
+#main-nav ul.navbar-nav li ul.sub-menu li:hover a {
+	padding-left: 33px;
+	transition: padding-left .5s;
+}
+#dropdown {
+	border-top: 2px solid #c4463f;
+	z-index: 2;
+	right: 0;
+	top: 170%;
+	transition: top .1s;
+	background-color: #000!important;
+	display: none;
+}
+#dropdown.show {
+	top: 80%;
+	transition: top .25s;
+}
+#dropdown.respon {
+	width: 70%!important;
+	height: 400px;
+	overflow: auto;
+	border-left: 2px solid #c4463f!important;
+	top: -200%!important;
+	transition: top .5s;
+}
+#dropdown.respon.show {
+	top: -600%!important;
+	transition: top .25s;
+}
+#dropdown a.name-p {
+	font-size: 1.0625rem;
+	color: #fff;
+}
+#dropdown ul.list-p li a {
+	font-family: "MyriadPro-Light";
+	color: #e1e1e1;
+	line-height: 2;
+}
+/*===== BANNER =====*/
+#banner {
+	margin-bottom: 80px;
+}
+#home-slide .carousel-indicators li {
+	background-color: #282828;
+	opacity: 1;
+}
+#home-slide .carousel-indicators .active {
+	background-color: #e2524a;
+}
+.content-of-banner {
+    width: 530px;
+    height: 250px;
+    padding: 10px;
+    font-size: 1.125rem;
+    top: 27%;
+    left: 17%;
+}
+.content-of-banner span.discount {
+	color: #000;
+}
+.content-of-banner h2.name-product {
+	font-size: 3.125rem;
+	color: #e2524a;
+}
+.content-of-banner p.desc-info {
+	color: #343434;
+	margin-bottom: 36px;
+}
+.content-of-banner a.pay-now {
+	background: #000000;
+	padding: 10px 30px;
+}
+/*===== SUPPORT =====*/
+#support {
+	margin-bottom: 80px;
+}
+#support a.support-item {
+	background-color: #f4f4f4;
+	height: 105px;
+	color: #434141;
+	font-size: 1rem;
+	padding-top: 18px;
+}
+#support a.support-item i {
+	font-size: 3rem;
+}
+
+
+/*===== WP-CONTENT =====*/
+#wp-content {
+	border-top: 1px solid #eeeeee;
+	padding-top: 90px;
+}
+/*----- section product new -----*/
+#product-new {
+	margin-bottom: 50px;
+}
+#product-new .box .box-head {
+	margin-bottom: 45px;
+}
+.box .box-head h2 {
+	font-family: "MYRIADPRO-BOLD";
+	color: #343434;
+	font-size: 1.875rem;
+	margin-bottom: 12px;
+}
+.box .box-head aside {
+	color: #837d7d;
+}
+.p-item .p-info {
+	padding: 21px 0 21px 0;
+}
+.p-item .p-info .evaluate .num-star i {
+	color: #ffa500;
+}
+.p-item .p-info .evaluate .num-star span.num-reviewers {
+	color: #6c757d;
+	margin-left: 6px;
+}
+.p-item .p-info .p-title a {
+	color: #514545;
+	padding: 12px 0;
+}
+.p-item .p-info span.price {
+	color: #514545;
+}
+.p-item:hover h3.p-title a {
+	color: #c4463f;
+	transition: color .25s;
+}
+.p-item:hover .p-img img {
+	transform: scale(1.05, 1.05);
+	transition: transform .5s;
+}
+/*----- section category -----*/
+#category {
+	margin-bottom: 60px;
+}
+#category a.img-cate:hover img {
+	transform: scale(1.05 , 1.05);
+	transition: transform .75s;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+#category .cate-info {
+	bottom: 30px;
+	right: 30px;
+}
+#category .cate-info h2.name {
+	color: #343434;
+	font-size: 3rem;
+	margin-bottom: 20px;
+}
+#category .cate-info button.see-more {
+	border: none;
+	border: 1px solid #eeeeee;
+	background-color: #000000;
+	color: #f8f8f8;
+	padding: 15px 37px;
+}
+/*----- section product-hot*/
+#product-hot .widget {
+	margin-bottom: 80px;
+}
+.widget .widget-title {
+	padding: 30px 0;
+}
+.widget .widget-title h2 {
+	color: #343434;
+	font-size: 1.875rem;
+}
+.widget .widget-title aside {
+	color: #837d7d;
+}
+.widget .btn-control a {
+	width: 27px;
+    height: 27px;
+    background-color: #343434;
+    border: 1px solid #eeeeee;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 27px;
+}
+.widget .btn-control a:hover {
+	background-color: #c4463f;
+	transition:	background-color .25s;
+}
+/*----- section latest-blog -----*/
+#latest-blog .widget {
+	border-top: 1px solid #eeeeee;
+	padding-top: 76px;
+}
+.widget-content .blog-item {
+	height: 619.61px;
+	border: 1px solid #eeeeee;
+}
+.widget-content .blog-item .blog-info {
+	padding: 14px 0;
+}
+.widget-content .blog-item .blog-info small.blog-theme {
+	font-size: 0.6875rem;
+	color: #313131;
+}
+.widget-content .blog-item .blog-info h3.blog-title a {
+	font-size: 1rem;
+	color: #141414;
+	margin: 18px 0;
+}
+.widget-content .blog-item .blog-info .blog-time {
+	color: #6c757d;
+}
+.widget-content .blog-item .blog-info .blog-desc {
+	color: #343434;
+	line-height: 1.8;
+}
+.blog-item:hover .blog-img a img {
+	transform: scale(1.05, 1.05);
+	transition: transform .5s; 
+}
+.widget button.see-more {
+	border: none;
+	margin-top: 50px;
+	margin-bottom: 65px;
+	border: 1px solid #eeeeee;
+	color: #585858;
+	padding: 7px 49px;
+}
+.widget button.see-more:hover {
+	background-color: #c4463f;
+	color: #fff;
+	transition: all .5s;
+}
+.widget button.see-more:focus {
+	outline: none;
+}
+/*===== FOOTER =====*/
+#footer {
+	background-color: #212121;
+	padding: 84px 0 94px 0;
+}
+#footer .widget .widget-title {
+	padding-bottom: 12px!important;
+}
+#footer .widget .widget-title h3.title-name{
+	color: #e2524a;
+	font-size: 1rem;
+}
+.widget.contact .widget-content {
+	padding-right: 131px;
+}
+.widget .widget-content ul.list-contact li,
+.widget .widget-content ul li a {
+	color: #ffffff;
+	line-height: 2.1;
+	text-decoration: none;
+}
+.widget .widget-content ul.list-contact li i,
+.widget .widget-content ul li a i {
+	margin-right: 6px;
+}
+.widget .widget-content ul li a:hover {
+	padding-left: 5px;
+	transition: padding-left .5s;
+	color: #c4463f;
+	opacity: .7;
+}
+/*===== WP MASK =====*/
+#wp-mask.show {
+	top: 0;
+	left: 0;
+	background: #000;
+	opacity: .6;
+}
+/*===== BACKTOP =====*/
+#backtop {
+	top: 80%;
+	right: -20%;
+	transition: right .5s;
+	opacity: .9;
+}
+#backtop.show {
+	right: 1%;
+	transition: right .5s;
+}
+#backtop  span {
+	border: none;
+	border-radius: 100%;
+	background-color: #000;
+	color: #fff;
+
+}
+/*===== COPYRIGHT =====*/
+#copyright {
+	background-color: #e2524a;
+	color: #dcdcdc;
+	padding: 13px 0 18px 0;
+}
+/*========== GENERAL ==========*/
+#top-header span:hover,#main-nav .icons a.icon-btn:hover,#main-nav ul.navbar-nav li:hover > a,
+#support a.support-item:hover, ul.list-contact .email:hover, ul.list-contact .phone:hover,
+.widget-content .blog-item:hover h3.blog-title a {
+	cursor: pointer;
+	color: #c4463f!important;
+	transition: color .25s;
+}
